@@ -1,4 +1,5 @@
-FROM icr.io/codeengine/alpine
+FROM ubuntu:latest
+## FROM icr.io/codeengine/alpine
 
 RUN mkdir -p /scripts
 COPY script.sh /scripts
